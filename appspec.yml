@@ -5,7 +5,7 @@ files:
     destination: /usr/share/tomcat7/webapps
 hooks:
   BeforeInstall:
-    - location: install_dependencies.sh
+    - location: /scripts/install_dependencies.sh
       timeout: 300
       runas: root
 #  AfterInstall:
